@@ -1,6 +1,7 @@
 const Review = require('../models/review');
 const User = require('../models/user');
 
+
 // Render the sign in page
 module.exports.signIn = (req, res) => {
   if (req.isAuthenticated()) {
